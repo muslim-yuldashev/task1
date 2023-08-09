@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main input{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #312f2f;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main button{
+    background-color: #233542;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1em;
+}
+.main button:hover{
+    color: black;
+    background-color: #ffffff;
+    border: 2px solid #111;
+    cursor: pointer;
+}
+
+.main label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main td, .main th th {
+    border: 1px solid #d3d1d1;
+    padding: 8px;
+}
+.main tr:nth-child(even){background-color: #f2f2f2;}
+
+.main tr:hover {background-color: #ddd;}
